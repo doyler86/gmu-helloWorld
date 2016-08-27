@@ -14,9 +14,21 @@
             </l7:Dependencies>
         </l7:Dependency>
         <l7:Dependency>
+            <l7:Name>ec2-50-17-220-167.compute-1.amazonaws.com</l7:Name>
+            <l7:Id>00000000000000000000000000000002:ec2-50-17-220-167.compute-1.amazonaws.com</l7:Id>
+            <l7:Type>SSG_KEY_ENTRY</l7:Type>
+        </l7:Dependency>
+        <l7:Dependency>
             <l7:Name>helloWorld</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935def82</l7:Id>
             <l7:Type>SERVICE</l7:Type>
+            <l7:Dependencies>
+                <l7:Dependency>
+                    <l7:Name>ec2-50-17-220-167.compute-1.amazonaws.com</l7:Name>
+                    <l7:Id>00000000000000000000000000000002:ec2-50-17-220-167.compute-1.amazonaws.com</l7:Id>
+                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                </l7:Dependency>
+            </l7:Dependencies>
         </l7:Dependency>
     </l7:Dependencies>
     <l7:MissingDependencies/>

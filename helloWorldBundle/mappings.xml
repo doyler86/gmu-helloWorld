@@ -8,5 +8,6 @@
         </l7:Properties>
     </l7:Mapping>
     <l7:Mapping action="NewOrExisting" srcId="3cd9a1161647ded1fa67794c935def3e" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935def3e" type="FOLDER"/>
+    <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:ec2-50-17-220-167.compute-1.amazonaws.com" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/privateKeys/00000000000000000000000000000002:ec2-50-17-220-167.compute-1.amazonaws.com" type="SSG_KEY_ENTRY"/>
     <l7:Mapping action="NewOrExisting" srcId="3cd9a1161647ded1fa67794c935def82" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/services/3cd9a1161647ded1fa67794c935def82" type="SERVICE"/>
 </l7:Mappings>
