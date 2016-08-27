@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<l7:DependencyList xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:Dependencies>
+        <l7:Dependency>
+            <l7:Name>git</l7:Name>
+            <l7:Id>3cd9a1161647ded1fa67794c935def3e</l7:Id>
+            <l7:Type>FOLDER</l7:Type>
+            <l7:Dependencies>
+                <l7:Dependency>
+                    <l7:Name>helloWorld</l7:Name>
+                    <l7:Id>3cd9a1161647ded1fa67794c935def82</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                </l7:Dependency>
+            </l7:Dependencies>
+        </l7:Dependency>
+        <l7:Dependency>
+            <l7:Name>helloWorld</l7:Name>
+            <l7:Id>3cd9a1161647ded1fa67794c935def82</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+        </l7:Dependency>
+    </l7:Dependencies>
+    <l7:MissingDependencies/>
+</l7:DependencyList>

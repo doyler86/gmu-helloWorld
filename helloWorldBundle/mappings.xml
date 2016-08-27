@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<l7:Mappings xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+        <l7:Properties>
+            <l7:Property key="FailOnNew">
+                <l7:BooleanValue>true</l7:BooleanValue>
+            </l7:Property>
+        </l7:Properties>
+    </l7:Mapping>
+    <l7:Mapping action="NewOrExisting" srcId="3cd9a1161647ded1fa67794c935def3e" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935def3e" type="FOLDER"/>
+    <l7:Mapping action="NewOrExisting" srcId="3cd9a1161647ded1fa67794c935def82" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/services/3cd9a1161647ded1fa67794c935def82" type="SERVICE"/>
+</l7:Mappings>
