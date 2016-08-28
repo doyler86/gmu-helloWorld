@@ -5,7 +5,7 @@
             <l7:Name>git</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e1577</l7:Id>
             <l7:Type>FOLDER</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:29:17.021-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:33:28.915-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:Folder folderId="0000000000000000ffffffffffffec76" id="3cd9a1161647ded1fa67794c935e1577" version="0">
                     <l7:Name>git</l7:Name>
@@ -13,10 +13,21 @@
             </l7:Resource>
         </l7:Item>
         <l7:Item>
+            <l7:Name>fragments</l7:Name>
+            <l7:Id>3cd9a1161647ded1fa67794c935e1a61</l7:Id>
+            <l7:Type>FOLDER</l7:Type>
+            <l7:TimeStamp>2016-08-27T20:33:28.915-07:00</l7:TimeStamp>
+            <l7:Resource>
+                <l7:Folder folderId="3cd9a1161647ded1fa67794c935e1577" id="3cd9a1161647ded1fa67794c935e1a61" version="0">
+                    <l7:Name>fragments</l7:Name>
+                </l7:Folder>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
             <l7:Name>myVariable</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e17d6</l7:Id>
             <l7:Type>CLUSTER_PROPERTY</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:29:17.021-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:33:28.915-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:ClusterProperty id="3cd9a1161647ded1fa67794c935e17d6" version="0">
                     <l7:Name>myVariable</l7:Name>
@@ -28,10 +39,10 @@
             <l7:Name>myfrag</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e1958</l7:Id>
             <l7:Type>POLICY</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:29:17.022-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:33:28.916-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:Policy guid="ffef4a8d-abc1-4d5e-a09a-596582349e1c" id="3cd9a1161647ded1fa67794c935e1958" version="1">
-                    <l7:PolicyDetail folderId="3cd9a1161647ded1fa67794c935e1577" guid="ffef4a8d-abc1-4d5e-a09a-596582349e1c" id="3cd9a1161647ded1fa67794c935e1958" version="1">
+                    <l7:PolicyDetail folderId="3cd9a1161647ded1fa67794c935e1a61" guid="ffef4a8d-abc1-4d5e-a09a-596582349e1c" id="3cd9a1161647ded1fa67794c935e1958" version="1">
                         <l7:Name>myfrag</l7:Name>
                         <l7:PolicyType>Include</l7:PolicyType>
                         <l7:Properties>
@@ -66,7 +77,7 @@
             <l7:Name>helloWorld</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e15bb</l7:Id>
             <l7:Type>SERVICE</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:29:17.024-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:33:28.927-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:Service id="3cd9a1161647ded1fa67794c935e15bb" version="2">
                     <l7:ServiceDetail folderId="3cd9a1161647ded1fa67794c935e1577" id="3cd9a1161647ded1fa67794c935e15bb" version="2">
@@ -88,7 +99,7 @@
                                 <l7:BooleanValue>false</l7:BooleanValue>
                             </l7:Property>
                             <l7:Property key="policyRevision">
-                                <l7:LongValue>2</l7:LongValue>
+                                <l7:LongValue>1</l7:LongValue>
                             </l7:Property>
                             <l7:Property key="soap">
                                 <l7:BooleanValue>false</l7:BooleanValue>
@@ -103,7 +114,7 @@
                     </l7:ServiceDetail>
                     <l7:Resources>
                         <l7:ResourceSet tag="policy">
-                            <l7:Resource type="policy" version="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                            <l7:Resource type="policy" version="0">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
     &lt;wsp:All wsp:Usage="Required"&gt;
         &lt;L7p:Include&gt;
@@ -127,6 +138,7 @@
             </l7:Properties>
         </l7:Mapping>
         <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e1577" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935e1577" type="FOLDER"/>
+        <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e1a61" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935e1a61" type="FOLDER"/>
         <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e17d6" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/clusterProperties/3cd9a1161647ded1fa67794c935e17d6" type="CLUSTER_PROPERTY">
             <l7:Properties>
                 <l7:Property key="MapBy">
