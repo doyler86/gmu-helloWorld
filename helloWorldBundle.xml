@@ -5,7 +5,7 @@
             <l7:Name>git</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e1577</l7:Id>
             <l7:Type>FOLDER</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:11:50.704-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:17:53.957-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:Folder folderId="0000000000000000ffffffffffffec76" id="3cd9a1161647ded1fa67794c935e1577" version="0">
                     <l7:Name>git</l7:Name>
@@ -13,10 +13,22 @@
             </l7:Resource>
         </l7:Item>
         <l7:Item>
+            <l7:Name>myVariable</l7:Name>
+            <l7:Id>3cd9a1161647ded1fa67794c935e17d6</l7:Id>
+            <l7:Type>CLUSTER_PROPERTY</l7:Type>
+            <l7:TimeStamp>2016-08-27T20:17:53.957-07:00</l7:TimeStamp>
+            <l7:Resource>
+                <l7:ClusterProperty id="3cd9a1161647ded1fa67794c935e17d6" version="0">
+                    <l7:Name>myVariable</l7:Name>
+                    <l7:Value>boom</l7:Value>
+                </l7:ClusterProperty>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
             <l7:Name>helloWorld</l7:Name>
             <l7:Id>3cd9a1161647ded1fa67794c935e15bb</l7:Id>
             <l7:Type>SERVICE</l7:Type>
-            <l7:TimeStamp>2016-08-27T20:11:50.706-07:00</l7:TimeStamp>
+            <l7:TimeStamp>2016-08-27T20:17:53.959-07:00</l7:TimeStamp>
             <l7:Resource>
                 <l7:Service id="3cd9a1161647ded1fa67794c935e15bb" version="2">
                     <l7:ServiceDetail folderId="3cd9a1161647ded1fa67794c935e1577" id="3cd9a1161647ded1fa67794c935e15bb" version="2">
@@ -60,7 +72,7 @@
             &lt;L7p:Detail stringValue="asdf"/&gt;
         &lt;/L7p:AuditDetailAssertion&gt;
         &lt;L7p:HardcodedResponse&gt;
-            &lt;L7p:Base64ResponseBody stringValue="Ym9vbQ=="/&gt;
+            &lt;L7p:Base64ResponseBody stringValue="JHtnYXRld2F5Lm15VmFyaWFibGV9"/&gt;
         &lt;/L7p:HardcodedResponse&gt;
     &lt;/wsp:All&gt;
 &lt;/wsp:Policy&gt;
@@ -80,6 +92,13 @@
             </l7:Properties>
         </l7:Mapping>
         <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e1577" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935e1577" type="FOLDER"/>
+        <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e17d6" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/clusterProperties/3cd9a1161647ded1fa67794c935e17d6" type="CLUSTER_PROPERTY">
+            <l7:Properties>
+                <l7:Property key="MapBy">
+                    <l7:StringValue>name</l7:StringValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
         <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e15bb" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/services/3cd9a1161647ded1fa67794c935e15bb" type="SERVICE"/>
     </l7:Mappings>
 </l7:Bundle>
