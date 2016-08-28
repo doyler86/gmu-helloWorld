@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<l7:Service xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management" id="3cd9a1161647ded1fa67794c935def82" version="2">
-    <l7:ServiceDetail folderId="3cd9a1161647ded1fa67794c935def3e" id="3cd9a1161647ded1fa67794c935def82" version="2">
+<l7:Service xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management" id="3cd9a1161647ded1fa67794c935def82" version="3">
+    <l7:ServiceDetail folderId="3cd9a1161647ded1fa67794c935def3e" id="3cd9a1161647ded1fa67794c935def82" version="3">
         <l7:Name>helloWorld</l7:Name>
         <l7:Enabled>true</l7:Enabled>
         <l7:ServiceMappings>
@@ -19,7 +19,7 @@
                 <l7:BooleanValue>false</l7:BooleanValue>
             </l7:Property>
             <l7:Property key="policyRevision">
-                <l7:LongValue>5</l7:LongValue>
+                <l7:LongValue>6</l7:LongValue>
             </l7:Property>
             <l7:Property key="soap">
                 <l7:BooleanValue>false</l7:BooleanValue>
@@ -34,7 +34,7 @@
     </l7:ServiceDetail>
     <l7:Resources>
         <l7:ResourceSet tag="policy">
-            <l7:Resource type="policy" version="4">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+            <l7:Resource type="policy" version="5">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
     &lt;wsp:All wsp:Usage="Required"&gt;
         &lt;L7p:AuditDetailAssertion&gt;
@@ -69,6 +69,9 @@
             &lt;/L7p:ResponseHeaderRules&gt;
             &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
         &lt;/L7p:HttpRoutingAssertion&gt;
+        &lt;L7p:Include&gt;
+            &lt;L7p:PolicyGuid stringValue="7be7d649-e997-4a1d-9daa-ff16f3ee49ae"/&gt;
+        &lt;/L7p:Include&gt;
         &lt;L7p:HardcodedResponse&gt;
             &lt;L7p:Base64ResponseBody stringValue="SGVsbG9Xb3JsZA=="/&gt;
         &lt;/L7p:HardcodedResponse&gt;

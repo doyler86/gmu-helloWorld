@@ -8,6 +8,8 @@
         </l7:Properties>
     </l7:Mapping>
     <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935def3e" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935def3e" type="FOLDER"/>
+    <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e06e3" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/folders/3cd9a1161647ded1fa67794c935e06e3" type="FOLDER"/>
+    <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e06cc" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/policies/3cd9a1161647ded1fa67794c935e06cc" type="POLICY"/>
     <l7:Mapping action="NewOrUpdate" srcId="3cd9a1161647ded1fa67794c935e061a" srcUri="https://ip-10-13-134-79.ec2.internal:9443/restman/1.0/clusterProperties/3cd9a1161647ded1fa67794c935e061a" type="CLUSTER_PROPERTY">
         <l7:Properties>
             <l7:Property key="MapBy">
